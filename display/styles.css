@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f38686;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background-color: #fdecd7;
+    border-radius: 30px;
+    padding: 20px;
+    gap: 15px;
+}
+
+.container span {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.comparar_qtd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.qtd_ac img {
+    width: 100%;
+}
+
+.qtd_ac_comp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.qtd_ac_comp img {
+    width: 100%;
+}
+
+.faixa_etaria img {
+    width: 100%;
+}
+
+.acid_comuns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.acid_comuns img {
+    width: 49%;
+}
+
+.tipos_acid img {
+    width: 100%;
+}
