@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 # quantidade de acidentes em 2023
 csv_2023 = pd.read_csv('./banco/ACGRBR23.csv')

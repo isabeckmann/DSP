@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 import duckdb
 
 # Conexão com o banco de dados
@@ -8,8 +7,8 @@ db_path = "./database/database_cd.db"
 conn = duckdb.connect(db_path)
 
 # IDs dos municípios e seus nomes
-ids_municipios = [431390, 431020, 431410]  # Panambi, Ijuí, Passo Fundo
-municipios_nome = {431390: 'Panambi', 431020: 'Ijuí', 431410: 'Passo Fundo'}
+ids_municipios = [431390, 431020, 431410]  # Panambi, Iju��, Passo Fundo
+municipios_nome = {431390: 'Panambi', 431020: 'Iju�', 431410: 'Passo Fundo'}
 
 # Função para carregar dados de acidentes
 def carregar_dados_acidentes(ano):
